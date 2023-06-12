@@ -1,0 +1,66 @@
+{"sensors":
+	[{
+		"name": "MagneticLoop",
+		"id": "magneticLoop",
+		"mqttTopic": "/sensors",
+		"defaultState":0,
+		"gui": {
+			"objectId": "#rect3455",
+			"stateColorMap": ["#000000","#00ff00"],
+			"styleAttribute": "stroke"
+		},
+		"signal": {
+			"mqttTopic": "/signals",
+			"type": "digital",
+			"id": 1
+		}
+	},
+	{
+		"name": "PhotoDiode",
+		"id": "photoDiode",
+		"mqttTopic": "/sensors",
+		"defaultState":1,
+		"gui": {
+			"objectId": "#led_foto_dioda",
+			"stateColorMap": ["#008000","#00ff00"],
+			"styleAttribute": "fill"
+		},
+		"signal": {
+			"mqttTopic": "/signals",
+			"type": "digital",
+			"id": 2
+		}
+	},
+	{
+		"name": "SwitchOpen",
+		"id": "switchOpen",
+		"mqttTopic": "/sensors",
+		"defaultState":0,
+		"gui": {
+			"objectId": "#led_stikalo_2",
+			"stateColorMap": ["#008000","#00ff00"],
+			"styleAttribute": "fill"
+		},
+		"signal": {
+			"mqttTopic": "/signals",
+			"type": "digital",
+			"id": 3
+		}
+	},
+	{
+		"name": "SwitchClosed",
+		"id": "switchClosed",
+		"mqttTopic": "/sensors",
+		"defaultState":1,
+		"gui": {
+			"objectId": "#led_stikalo_1",
+			"stateColorMap": ["#008000","#00ff00"],
+			"styleAttribute": "fill"
+		},
+		"signal": {
+			"mqttTopic": "/signals",
+			"type": "digital",
+			"id": 4
+		}
+	}
+]}

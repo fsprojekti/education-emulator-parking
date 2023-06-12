@@ -1,0 +1,19 @@
+{
+    "apps" : [
+        {
+            "name"        : "broker",
+            "script"      : "./mqtt_broker/broker.js",
+            "watch"      : "true"
+        },
+        {
+            "name"       : "web UI",
+            "script"     : "./web_ui/server.js",
+            "watch"      : "true"
+        },
+        {
+            "name"       : "PLC IO",
+            "script"     : "./plc_io/index.js",
+            "watch"      : "true"
+        }
+    ]
+}

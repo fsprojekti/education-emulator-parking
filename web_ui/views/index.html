@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EMU-EDU</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/modules/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/modules/jquery-ui.min.js"></script>
+         <script type="text/javascript" src="js/modules/mqttws31.js"></script>
+    </head>
+<body>
+    
+<!-- ROW START -->
+<div class="container">
+    <div class="controlls">
+        <p id="button_forward"> naprej </p>
+        <p id="button_backward"> nazaj </p>
+        <p id="odpri"> odpri </p>
+        <p id="zapri"> zapri </p>
+
+    </div>
+    <div>
+    	<p> Zadnje MQTT sporočilo: <span id="message">None</span></p>
+        <p> Status MQTT povezeve: <span id="status">None</span></p>
+    </div>
+    <div class="main">
+        {{ slika | safe}}
+    </div>
+</div>
+<script type="text/javascript" src="js/mqtt.js"></script>
+<script type="text/javascript" src="js/sensors.js"></script>
+<script type="text/javascript" src="js/plc.js"></script>
+<script type="text/javascript" src="js/car.js"></script>
+<script type="text/javascript" src="js/barrier.js"></script>
+
+<script type="text/javascript">
+    MQTTconnect()
+</script>
+</body>
+</html>

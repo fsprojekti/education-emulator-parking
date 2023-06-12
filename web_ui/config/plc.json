@@ -1,0 +1,100 @@
+{"plc":
+	{
+		"name": "PLC1",
+		"id": "plc1",
+		"digital_inputs": [
+			{
+				"mqttTopic": "/plc/din/0",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_A0",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/din/1",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_A1",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/din/2",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_A2",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/din/3",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_A3",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/din/4",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_A4",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			}
+		],
+		"digital_outputs": [
+			{
+				"mqttTopic": "/plc/dout/0",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_D0",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/dout/1",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_D1",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/dout/2",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_D2",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/dout/3",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_D3",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			},
+			{
+				"mqttTopic": "/plc/dout/4",
+				"defaultState":0,
+				"gui": {
+					"objectId": "#led_D4",
+					"stateColorMap": ["#000000","#00ff00"],
+					"styleAttribute": "fill"
+				}
+			}
+		]
+	}
+}
